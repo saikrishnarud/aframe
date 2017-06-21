@@ -1,0 +1,36 @@
+<html>
+  <head>
+    <script src="https://aframe.io/releases/0.5.0/aframe.min.js"></script>
+  </head>
+  <body>
+    <a-scene>
+     <a-image src="a.jpg" position="-10 5 5" rotation="0 90 0" height="4" width="4"></a-image>
+     <a-image src="b.jpg" position="-10 5 -5" rotation="0 90 0" height="4" width="4"></a-image>
+     <a-image src="c.jpg" position="-10 -5 5" rotation="0 90 0" height="4" width="4"></a-image>
+     <a-image src="d.jpg" position="-10 -5 -5" rotation="0 90 0" height="4" width="4"></a-image>
+     <!--left-->
+     <a-plane position="-10 0 0" color="pink" rotation="0 90 0" height="20" width="20"></a-plane>
+     <a-image src="e.jpg" position="10 5 5" rotation="0 90 0" height="4" width="4"></a-image>
+     <a-image src="f.jpg" position="10 -5 -5" rotation="0 90 0" height="4" width="4"></a-image>
+     <a-image src="g.jpg" position="10 -5 5" rotation="0 90 0" height="4" width="4"></a-image>
+     <a-image src="h.jpg" position="10 5 -5" rotation="0 90 0" height="4" width="4"></a-image>
+     <!--right-->
+     <a-plane position="10 0 0" color="pink" rotation="0 -90 0" height="20" width="20"></a-plane>
+     <a-image src="i.jpg" position="5 -5 -10" rotation="0 180 0" height="4" width="4"></a-image>
+     <a-image src="j.jpg" position="-5 -5 -10" rotation="0 180 0 " height="4" width="4"></a-image>
+     <a-image src="k.jpg" position="-5 5 -10" rotation="0 180 0 " height="4" width="4"></a-image>
+     <a-image src="l.jpg" position="5 5 -10" rotation="0 180 0 " height="4" width="4"></a-image>
+     <!--front-->
+     <a-plane position="0 0 -10" color="pink" height="20" width="20"></a-plane>
+     <!--up-->
+     <a-plane position="0 10 10" rotation="90 0 0" color="white" height="20" width="20"></a-plane>
+     <!--down-->
+     <a-plane position="0 0 20" rotation="0 180 0" color="white" height="20" width="20"></a-plane>
+     <!--entrance-->
+     <a-plane position="0 10 10" rotation="90 0 0" color="pink" height="20" width="20"></a-plane>
+     <a-sky color="powderblue"></a-sky>
+    </a-scene>
+  </body>
+
+</html>
+
